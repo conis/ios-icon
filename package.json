@@ -1,0 +1,33 @@
+{
+  "name": "ios-icon",
+  "version": "0.0.1",
+  "description": "根据一张1024X1024的图片，自动生成iOS的需要的icon，并自动创建Contents.json，支持命令行调用.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/conis/ios-icon.git"
+  },
+  "keywords": [
+    "ios",
+    "icon",
+    "contents"
+  ],
+  "author": "conis",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "d81376299481648aab6e76cc153922bab9b27cd2",
+    "dependencies": {
+        "underscore":"",
+        "underscore.string": "",
+        "imagemagick": "",
+        "commander": "*",
+        "async": "*",
+        "strformat": "*"
+    },
+    "bin": {
+        "ios-icon": "./lib/maker.js"
+    }
+}
