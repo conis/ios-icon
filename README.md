@@ -2,10 +2,16 @@ ios-icon
 ========
 
 根据一张1024X1024的图片，自动生成iOS的需要的icon，并自动创建Contents.json，支持命令行调用。
-这是一个自用项目，起因是我每次做icon都要保存为不同的规格，icon如果有调整又要生成全部生成。想到Photosho的动作或者脚本又没找到，node.js也有类似的库，但我没有发现支持Xcode5的。
+
+这是一个自用项目，起因是我每次做icon都要保存为不同的规格，icon如果有调整又要生成全部生成。想到Photoshop的动作或者脚本又没找到，node.js也有类似的库，但我没有发现支持Xcode5的。
+
 所以，我希望有一个工具，能根据1024的icon，自动创建所有规格的icon，并规范命名，同时生成Contents.json文件。
+
 既然没有，我就自己写一个吧，花了一个早上，弄了一个自动化工具，算是自用工具吧。代码有点乱码，属于赶工产品，希望这不是一个太重复的轮子。
+
 目前只支持Xcode 5+，即Images.xcassets的方式，对于Xcode 5以下的版本，生成图标也是有用的，只不过，没有这么自动化，有兴趣的可以fork一下。
+
+欢迎Pull Request和Star。
 
 #Install
 1. ios-icon使用了`imagemagick`，如果你还没有安装，在OSX中，你可以使用`brew install imagemagick`安装。
