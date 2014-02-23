@@ -18,6 +18,17 @@ ios-icon
 2. 你必需安装好node.js环境(废话)
 3. `npm install -g ios-icon`，建议使用-g全局安装
 
+如果你没有安装`imagemagick`，则可能会出现这样的错误：
+
+````js
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: spawn ENOENT
+    at errnoException (child_process.js:988:11)
+    at Process.ChildProcess._handle.onexit (child_process.js:779:34)
+````
+
 PS. 最好从github安装，npm有可能不是最新的，尽量做到同步吧。
 
 #Usage
