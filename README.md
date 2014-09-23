@@ -14,11 +14,11 @@ ios-icon
 欢迎Pull Request和Star。
 
 #Install
-1. ios-icon使用了`imagemagick`，如果你还没有安装，在OSX中，你可以使用`brew install imagemagick`安装。
+1. ios-icon使用了`graphicsmagick`，如果你还没有安装，在OSX中，你可以使用`brew install graphicsmagick`安装。
 2. 你必需安装好node.js环境(废话)
 3. `npm install -g ios-icon`，建议使用-g全局安装
 
-如果你没有安装`imagemagick`，则可能会出现这样的错误：
+如果你没有安装`graphicsmagick`，则可能会出现这样的错误：
 
 ````js
 events.js:72
